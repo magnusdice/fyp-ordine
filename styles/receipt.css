@@ -1,0 +1,88 @@
+#editor {
+  width: 48mm;
+  margin: auto;
+  background: white;
+  border: 0;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  font-size: 4mm;
+  filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.2))
+    drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.8));
+  transition: 0.3s ease all;
+}
+
+#editor:after {
+  background: linear-gradient(135deg, #ffffff 5px, transparent 6px),
+    linear-gradient(225deg, #ffffff 5px, transparent 6px);
+  background-position: left-bottom;
+  background-repeat: repeat-x;
+  background-size: 9px 32px;
+  content: " ";
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 32px;
+  transform: translateY(32px);
+}
+td,
+th,
+tr,
+table {
+  border-top: 1px solid black;
+  border-collapse: collapse;
+  font-weight: 600;
+}
+
+table {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+tbody {
+  font-size: small;
+}
+
+h2 {
+  font-size: large;
+  font-weight: 700;
+  text-align: center;
+}
+
+.address {
+  font-size: small;
+  text-align: center;
+}
+
+.custom-msg {
+  text-align: center;
+}
+
+.pay-method {
+  text-align: center;
+  font-size: smaller;
+}
+
+.paymentdate {
+  text-align: center;
+  font-size: smaller;
+}
+
+.restaurantLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.logo-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.logo-container img {
+  display: block;
+  margin: 0 auto;
+}
